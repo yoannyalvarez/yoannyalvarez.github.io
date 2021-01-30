@@ -23,11 +23,12 @@
         </footer>
         <script>
             function addNumbers() {
+                // Input : get the inputs from "number1" and "number2" and convert them to floatn numbers
                 let num1 = parseFloat(document.getElementById('number1').value);
                 let num2 = parseFloat(document.getElementById('number2').value);
-
+                // Processing : adding the two values and hold them into a addition value 
                 let addition = num1 + num2;
-
+                // Output: Storins the addition value to the output paragraph 
                 document.getElementById('output').innerHTML = addition;
 
             }
