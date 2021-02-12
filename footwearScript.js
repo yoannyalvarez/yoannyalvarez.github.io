@@ -24,6 +24,6 @@ function counselor() {
             break;           
     } 
 
-    // OUTPUT: Storing the message to the output paragraph
+    // OUTPUT: Storing the footwear to the output div
     document.getElementById('output').innerHTML = footwear; 
 }
