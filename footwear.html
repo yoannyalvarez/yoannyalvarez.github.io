@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Footwear weather</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="footwearScript.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>What's the weather?</h1>
+            <h2>Yoanny Alvarez</h2>
+        </header>
+        <main>
+            <label for="weather-select">Choose a weather:</label>
+
+            <select name="weathers" id="weather-select">
+                <option value="unknown">--Please choose an option--</option>
+                <option value="hot">Hot</option>
+                <option value="rain">Rain</option>
+                <option value="snow">Snow</option>
+            </select>
+            
+            <label><button type="button" onclick="counselor()">Counsel</button></label>
+            <hr>
+            <div><span id="output"></span></div>
+        </main>
+        <footer>
+            &copy;2021 &bull; Yoanny Alvarez &bull; BYU-Idaho &bull; CIT 160
+        </footer>
+    </body>
+</html>
