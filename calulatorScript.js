@@ -41,6 +41,6 @@ function calculator() {
             break;            
     } 
 
-    // OUTPUT: Storing the message to the output paragraph. 
+    // OUTPUT: Storing the message to the output paragraph
     document.getElementById('output').innerHTML = message; 
 }
