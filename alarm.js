@@ -30,6 +30,6 @@
     }
 
     // OUTPUT: Storing the current date and message to the outputs divs
-    document.getElementById('output').innerHTML = "TODAY IS: " + now;
+    document.getElementById('output').innerHTML = now;
     document.getElementById('message').innerHTML = message; 
 }
