@@ -31,5 +31,5 @@
 
     // OUTPUT: Storing the current date and message to the outputs divs
     document.getElementById('output').innerHTML = now;
-    document.getElementById('message').innerHTML = message; 
+    document.getElementById('message').innerHTML = "It's weekday. " + message; 
 }
