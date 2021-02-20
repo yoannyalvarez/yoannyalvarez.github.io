@@ -15,7 +15,6 @@
     let month = now.getMonth(); 
     let dayOfMonth = now.getDate();
     let dayOfWeek = now.getDay();
-    
     /* 
     PROCESSING:
     Declare a variable that holds the message to output 
