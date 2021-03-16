@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Invest</title>
+    </head>
+    <body>
+        <header>
+            <h1>Investment Calculator</h1>
+        </header>
+        <main>
+            <label>Amount invested (principal) <input type="text" id="principal"></label><br>
+            <label>Annual rate (example: .08) <input type="text" id="annualRate"></label><br>
+            <label>Number of years <input type="text" id="years"></label><br>
+            <label>Periods per year <input type="text" id="periods"></label><br>
+            <label><button type="button" onclick="doFV()">Compute future value</button></label>
+            <label><output type="text" id="output"></label>
+        </main>
+        <footer>
+            &copy;2021 &bull; Yoanny Alvarez &bull; BYU-Idaho &bull; CIT 160
+        </footer>
+        <script src="invest.js"></script>
+    </body>
+</html>
