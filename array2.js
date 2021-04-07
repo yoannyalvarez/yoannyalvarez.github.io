@@ -21,7 +21,7 @@ function test() {
             count2 + '<br>' +
             mult1 + '<br>' +
             mult2;
-
+            
     // Display the output string for the user to see.
     document.getElementById('output').innerHTML = output;
 }
